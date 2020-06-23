@@ -3,11 +3,11 @@ const queries = require('./src/utils/algolia_queries')
 
 module.exports = {
   siteMetadata: {
-    title: `GuiDoRag`,
+    title: `Guilherme Beneti`,
     position: `Full-Stack Developer`,
-    description: `Let's talk about development and ragnarok.`,
+    description: ``,
     author: `@guilhermebeneti`,
-    siteUrl: `https://guilhermebeneti.com.br`
+    siteUrl: `https://guilhermebeneti.netlify.app/`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -84,6 +84,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`
   ],
 }
