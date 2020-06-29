@@ -33,7 +33,6 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 background
-                category
                 date(locale: "pt-br", formatString: "DD [de] MMM [de] YYYY")
                 description
                 title
@@ -75,7 +74,7 @@ exports.createPages = ({ graphql, actions }) => {
             })
         })
 
-        const postsPerPage = 4
+        const postsPerPage = 6
         const numberPages = Math.ceil(posts.length / postsPerPage)
 
         Array.from({ length: numberPages}).forEach((_, index) => {

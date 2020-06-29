@@ -50,9 +50,6 @@ const MenuBar = () => {
             }} className="display">
                 {isListMode ? <LayoutGrid /> : <List />}
             </S.MenuBarItem>
-            <S.MenuBarItem title="Go to top">
-                <CaretUpCircle />
-            </S.MenuBarItem>
         </S.MenuBarGroup>
     </S.MenuBarWrapper>
     )

@@ -61,19 +61,19 @@ img {
 }
 
 body.dark {
-	--borders: #38444d;
-	--texts: #8899a6;
-	--postColor: #fff;
+	--borders: #222;
+	--texts: grey;
+	--postColor: grey;
 	--highlight: #1fa1f2;
-	--mediumBackground: #192734;
-	--background: #16202c;
+	--mediumBackground: #000;
+	--background: #000;
 	--white: #fff;
 	--black: #222;
 }
 
 body.light {
-	--borders: #dedede;
-	--texts: #111;
+	--borders: lightGrey;
+	--texts: #000;
 	--postColor: #555555;
 	--highlight: #1fa1f2;
 	--mediumBackground: #f0f0f3;
